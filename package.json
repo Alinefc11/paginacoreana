@@ -1,0 +1,24 @@
+{
+  "name": "paginacoreana",
+  "version": "1.0.0",
+  "description": "pagina realizada con HTML y Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alinefc11/paginacoreana.git"
+  },
+  "keywords": [],
+  "author": "Aline Canisales Eduardo Piña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alinefc11/paginacoreana/issues"
+  },
+  "homepage": "https://github.com/Alinefc11/paginacoreana#readme",
+  "devDependencies": {
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.92.1"
+  }
+}
