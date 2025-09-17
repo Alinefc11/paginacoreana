@@ -4,13 +4,18 @@
   "description": "pagina realizada con HTML y Sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass src/scss:dist/css",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alinefc11/paginacoreana.git"
   },
-  "keywords": [],
+  "keywords": [
+    "SASS",
+    "NMP",
+    "Gulp"
+  ],
   "author": "Aline Canisales Eduardo Piña",
   "license": "ISC",
   "bugs": {
@@ -20,5 +25,8 @@
   "devDependencies": {
     "gulp-sass": "^6.0.1",
     "sass": "^1.92.1"
+  },
+  "dependencies": {
+    "gulp": "^5.0.1"
   }
 }
