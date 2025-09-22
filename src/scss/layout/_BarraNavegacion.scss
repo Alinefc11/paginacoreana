@@ -1,0 +1,24 @@
+nav{
+    background-color: aqua;
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        flex-direction: column;
+        padding: 20px;
+        color: black;
+        font-size: 16px;
+        font-weight: 900;
+        transition: all 0.8s ease-in-out;
+        
+        &:hover{
+            background-color: palevioletred;
+            color: white;
+            
+        }
+    }
+    
+}
