@@ -1,122 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="build/css/app.css">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="build/css/app.css" />
+    </head>
 
-<body>   <!-- BODY -->
+    <body>
+        <!-- BODY -->
 
-    <!-- Seccion de barra de navegacion -->
-    <section class="barraNavegacion">
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Kawaii</a>
-            <a href="#">K-pop</a>
-            <a href="#">Belleza</a>
-            <a href="#">Alimentos</a>
-            <a href="#">Más</a>
-        </nav>
-    </section>
+        <!-- Seccion de barra de navegacion -->
+        <section class="barraNavegacion">
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Kawaii</a>
+                <a href="#">K-pop</a>
+                <a href="#">Belleza</a>
+                <a href="#">Alimentos</a>
+                <a href="#">Más</a>
+            </nav>
+        </section>
 
-    <!-- Secion de hero -->
-    <section class="Hero">
-        <div class="contenedor-img">
-            <img src="img/Comida/gochujang.webp" alt="">
-        </div>
-        <div class="cont-info">
-            <div class="descripcion">
-                <h1>Hola Aline</h1>
-                <h2>Lic. en Ciencias Politicas</h2>
+        <!-- Secion de hero -->
+        <section class="Hero">
+            <div class="contenedor-img">
+                <img src="img/Comida/gochujang.webp" alt="" />
             </div>
-            <div class="cont-subimages">
-                <img src="img/k-pop/chaEuwhoo.webp" alt="">
-                <img src="img/k-pop/sugga.webp" alt="">
-                <img src="img/k-pop/lisa.webp" alt="">
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección de Belleza -->
-    <section class="belleza" id="belleza">
-        <h2 class="titulo-belleza">SECCION DE BELLEZA</h2>
-
-        <div class="contenedor-belleza">
-            
             <div class="cont-info">
-                <div class="producto">
-                    <ul>
-                        <li>💗 Labiales</li>
-                        <li>🌷 Perfumes</li>
-                        <li>🍑 Lociones corporales</li>
-                        <li>🧴 Tratamiento facial</li>
-                        <li>🛁 Cuidado corporal</li>
-                    </ul>
+                <div class="descripcion">
+                    <h1>Hola Aline</h1>
+                    <h2>Lic. en Ciencias Politicas</h2>
+                </div>
+                <div class="cont-subimages">
+                    <img src="img/k-pop/chaEuwhoo.webp" alt="" />
+                    <img src="img/k-pop/sugga.webp" alt="" />
+                    <img src="img/k-pop/lisa.webp" alt="" />
                 </div>
             </div>
+        </section>
 
-            <div class="cont-images">
-                <div class="image img1">
-                    <img src="img/ProductosBelleza/cosmetico1.webp" alt="Labial rosa">
-                </div>
-                <div class="image img2">
-                    <img src="img/ProductosBelleza/bloqueador1.webp" alt="bloqueador">
-                </div>
-                <div class="image img3">
-                    <img src="img/ProductosBelleza/banila.webp" alt="crema banila">
+        <!-- Sección de Belleza -->
+        <section class="belleza" id="belleza">
+            <h2 class="titulo-belleza">SECCION DE BELLEZA</h2>
+
+            <div class="contenedor-belleza">
+                <div class="cont-info">
+                    <div class="producto">
+                        <ul>
+                            <li>💗 Labiales</li>
+                            <li>🌷 Perfumes</li>
+                            <li>🍑 Lociones corporales</li>
+                            <li>🧴 Tratamiento facial</li>
+                            <li>🛁 Cuidado corporal</li>
+                        </ul>
+                    </div>
                 </div>
 
+                <div class="cont-images">
+                    <div class="image img1">
+                        <img
+                            src="img/ProductosBelleza/cosmetico1.webp"
+                            alt="Labial rosa"
+                        />
+                    </div>
+                    <div class="image img2">
+                        <img
+                            src="img/ProductosBelleza/bloqueador1.webp"
+                            alt="bloqueador"
+                        />
+                    </div>
+                    <div class="image img3">
+                        <img
+                            src="img/ProductosBelleza/banila.webp"
+                            alt="crema banila"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Seccion K-pop -->
+
+        <section class="tienda-kpop">
+            <!-- FILTROS -->
+            <div class="filtros">
+                <button class="btn">Todos</button>
+                <button class="btn">Photocards</button>
+                <button class="btn">Álbumes</button>
+                <button class="btn">Comida</button>
+                <button class="btn">Peluches</button>
+                <button class="btn">ArmyBomb</button>
             </div>
 
-        </div>
-    </section>
+            <!-- GRID -->
+            <div class="grid-productos">
+                <div class="card">CARD</div>
+            </div>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2025 Tienda Coreana. Todos los derechos reservados a PiñaComp.</p>
-        <p>Síguenos en:
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">TikTok</a>
-        </p>
-    </footer>
-<!-- Secion K-pop -->
-<class="kpop" id="kpop">
-<section class="tienda-kpop">
-
-    <!-- FILTROS -->
-    <div class="filtros">
-        <button class="activo">Todos</button>
-        <button>Photocards</button>
-        <button>Álbumes</button>
-        <button>Comida</button>
-        <button>Peluches</button>
-        <button>ArmyBomb</button>
-    </div>
-
-    <!-- GRID -->
-    <div class="grid-productos">
-
-        <div class="">
-            <img src="" alt="">
-        </div>
-
-        <div class="card">CARD</div>
-        <div class="card">CARD</div>
-        <div class="card">CARD</div>
-        <div class="card">CARD</div>
-        <div class="card">CARD</div>
-
-        <div class="card">CARD</div>
-        <div class="card">CARD</div>
-
-    </div>
-
-</section>
-
-
-</body>
+        <!-- Footer -->
+        <footer class="footer">
+            <p>
+                © 2025 Tienda Coreana. Todos los derechos reservados a PiñaComp.
+            </p>
+            <p>
+                Síguenos en:
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">TikTok</a>
+            </p>
+        </footer>
+    </body>
 </html>
