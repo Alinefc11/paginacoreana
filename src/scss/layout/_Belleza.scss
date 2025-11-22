@@ -5,10 +5,18 @@
 
     .titulo-belleza {
         font-size: 2.5rem;
-        color: #0fbee5;
+        color: #0f0f0f;
         font-weight: bold;
         margin-bottom: 3rem;
+        font-style: italic;
+        font-family: "Apricots", sans-serif;
+    font-size: 2.8rem;
+    transition: color 0.3s ease, transform 0.3s ease;
     }
+    .titulo-belleza:hover {
+  color: #ff1493; /* rosa fuerte */
+  transform: scale(1.03); /* efecto de agrandarse un poquito */
+}
 
     .contenedor-belleza {
         display: flex;
@@ -43,12 +51,12 @@
                     padding: 0;
 
                     li {
-                        font-size: 1rem;
+                        font-size: 2rem;
                         color: #333;
-                        padding: 0.8rem 1rem;
+                        padding: 0.9rem 1rem;
                         background-color: #fff;
                         border-radius: 30px;
-                        margin-bottom: 2rem;
+                        margin-bottom: 3rem;
                         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
                         transition: transform 0.3s ease;
 
